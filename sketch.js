@@ -134,9 +134,9 @@ function draw() {
   // model(moonBook2);
   // pop();
 
-  //
+  //操作指南
   push();
-  translate(58, 3.5, 55);
+  translate(57, 3.5, 55);
   rotateY(-PI / 2);
   if (showPanel) {
     texture(guideTexture);
